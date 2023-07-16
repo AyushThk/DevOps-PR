@@ -1,0 +1,69 @@
+ls //this command will show all the files and directroy of that folder
+ls -R//this command will show all the files and directroy of that folder and sub-directory files also
+ls -a //this command will show all the files and hiden files
+ll //this command will show all the files hiden files also and directroy of that folder and sub-directory files also with full information
+ls -lart //this command will show all the files hiden files also and directroy of that folder and sub-directory files also with full information
+
+cat //It is used toshow the file content.
+
+touch file-name.extension //It is used to create a file without any content.
+touch .file-name.extension //It is used to create a hiden file without any content.
+
+mv //this command is used to move files from one directory to another
+example: mv file-name.extension directory-name/
+another example: mv /home/vboxuser/Ayush/1st.txt /home/vboxuser/Download/
+Elaborate:       mv /Location of the file/ /location of the path where you want to send that file/
+
+cp //this command is used to copy files from one directory to another
+example: cp file-name.extension directory-name/
+another example: cp /home/vboxuser/Ayush/2nd.txt /home/vboxuser/Download/
+Elaborate:       cp /Location of the file/ /location of the path where you want to send that file/
+
+rm file-name //this command is used to delete the file
+
+rm -rf dir-name //this command is used to delete the directory
+
+clear //this command is to clean the terminal just like a fresh new terminal if you scroll up you can see the previous commands
+
+history //this command will show all the previous command that you had use
+
+echo content //this command are used to print on the terminal
+printf "content \n" //this command are used to print on the terminal
+
+sudo apt install python3 //this command will install the software
+sudo apt install default-jdk //this command will install the software
+sudo apt-get update //this command will list out every updated software with versions
+sudo apt-get upgrade //this command will list out and install every updated software
+
+This will show permisions....
+Owner user_group      Other
+-rw-    r--          r--
+drwx r-x r-x // this is user permision 
+
+chmod 775 file_name/user-name //chmod command will give the permision to read, write and execute (by using binary to Decimal integer convertor) use chmod calculator to see the permision number
+
+top //this command will show processes that are consuming most resources
+// for quiting top press enter and then q key
+
+ps //this command will show the running processes
+ps -a //this command will show the processes that are running in fornt and backgorund as well
+
+
+kill "PID" //this command will kill the processe that are running
+example: kill 3271 //by using top command we can have PID
+
+vi //this command is used to edit the content of the file for quiting >>esc , :, q "!" for not save and quit and wq for save and quit
+vim //this command is used to edit the content of the file for quiting >>esc , :, q "!" for not save and quit and wq for save and quit
+
+
+
+
+
+
+
+
+
+
+
+
+
